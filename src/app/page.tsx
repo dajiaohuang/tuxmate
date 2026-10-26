@@ -369,7 +369,7 @@ export default function Home() {
                     </div>
 
                     {/* Keep these CSS breakpoints aligned with getAppGridColumnCount. */}
-                    <div className="hidden lg:grid lg:grid-cols-2 min-[1372px]:grid-cols-3 min-[1684px]:grid-cols-4 gap-x-8 items-start">
+                    <div className="hidden grid-cols-2 lg:grid min-[1372px]:grid-cols-3 min-[1684px]:grid-cols-4 gap-x-8 items-start">
                         {columns.map((columnCategories, colIdx) => {
                             let globalIdx = 0;
                             for (let c = 0; c < colIdx; c++) {
